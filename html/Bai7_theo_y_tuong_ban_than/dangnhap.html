@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            background-image: url("gymimg.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+        }
+
+        .form-container {
+            margin-top: 100px;
+            margin-right: 200px;
+            width: 350px;
+            color: white;
+        }
+
+        .form-container h1 {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        .input-group {
+            margin-bottom: 25px;
+        }
+
+        .input-group label {
+            display: block;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 8px 0;
+            border: none;
+            background: transparent;
+            outline: none;
+            border-bottom: 2px solid white;
+            color: white;
+            font-size: 16px;
+        }
+
+        .input-group input::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .button-group a {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-group a:hover {
+    opacity: 0.7;
+}
+
+        .button-group button {
+            background: transparent;
+            border: none;
+            border-bottom: 2px solid white;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 5px 0;
+            cursor: pointer;
+        }
+
+        .button-group button:hover {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+
+        <h1>Đăng Nhập</h1>
+
+        <form action="#" method="POST">
+
+            <div class="input-group">
+                <label>Tên đăng nhập</label>
+                <input type="text" placeholder="Nhập họ tên" required>
+            </div>
+
+            <div class="input-group">
+                <label>Mật khẩu</label>
+                <input type="password" required>
+            </div>
+
+            <div class="button-group">
+                <a href="trangchu.html">Đăng nhập</a>
+            </div>
+        </form>
+
+    </div>
+
+</body>
+</html>

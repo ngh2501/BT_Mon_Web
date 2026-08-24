@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Form</title>
+
+    <style>
+        #main-table {
+            border: 1px solid cyan;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+
+        <table id="main-table">
+            
+
+            <tr>
+                <td colspan="2">
+                    <h1 style="margin-top: 0;">Contact Us</h1>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="padding-top: 10px;">
+                    Your message:
+                    <hr style="margin: 5px 0 10px 0;">
+                </td>
+            </tr>
+            <tr>
+                <td>To</td>
+                <td><input type="text" value="Example Cafe"></td>
+            </tr>
+            <tr>
+                <td>Your email</td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td valign="top">Message</td>
+                <td><textarea rows="8" cols="60"></textarea></td>
+            </tr>
+            <tr>
+                <td>Attach File</td>
+                <td><input type="file"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="padding-top: 20px;">
+                    How you found us:
+                    <hr style="margin: 5px 0 10px 0;">
+                </td>
+            </tr>
+            <tr>
+                <td>How did you hear of us</td>
+                <td>
+                    <select>
+                        <option>Google</option>
+                        <option>Facebook</option>
+                        <option>Friend</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Newsletter</td>
+                <td>
+                    <input type="checkbox" checked>
+                    Ensure this box is checked if you would like to receive email updates
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="padding-top: 20px;">
+                    <input type="submit" value="Send message">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+</body>
+</html>
